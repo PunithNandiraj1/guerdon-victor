@@ -1,0 +1,38 @@
+.footer-container {
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+   
+    background-color: aqua;
+    
+}
+
+.footer-logo {
+    width: 211px;
+    height: 184px;
+    margin: 2rem auto;
+}
+
+.devices {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0 2rem 0;
+}
+
+.devices img {
+    padding: 0 0.5em;
+}
+
+.social-media {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem auto;
+}
+
+.social-media svg {
+    padding: 15px auto;
+}

@@ -1,0 +1,63 @@
+.hero-container {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-hero {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@media(max-width:700px){
+    .bg-hero{
+        max-width: 100%;
+        
+    }
+}
+
+
+/* 
+.text-hero {
+  position:absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  max-width: 100%;
+
+}
+
+
+@media(max-width:1400px){
+    .text-hero {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+
+    }
+    
+}
+
+
+@media(max-width: 1150px) and (max-width:1399px) {
+    .text-hero {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+
+    }
+}  */
+
+
+
+
+
+
+
+

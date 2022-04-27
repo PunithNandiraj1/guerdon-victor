@@ -1,0 +1,70 @@
+video {
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.device-container {
+    margin: 2rem 25rem;
+}
+
+.content-device {
+    display: flex;
+    
+
+}
+
+.aaa {
+    margin-right: 10rem;
+}
+
+.social-content {
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+.content-text h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.content-text h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin: 1rem 0rem;
+}
+
+.horizontal-line {
+    width: 320px;
+    border-top: 1px solid black;
+    margin: 0.25rem 0;
+}
+
+.content-text h3 {
+    margin: 1rem 0;
+}
+
+.social-content h4 {
+    margin: 0.4rem 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.social-content img {
+    margin: 0 1rem;
+}
+
+
+
+

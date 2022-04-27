@@ -1,0 +1,16 @@
+.feature-container {
+
+}
+
+.feature-bg {
+    padding: 5rem 7rem;
+    background: url(../../images/BG_Frame.jpg);
+}
+
+.feature-item {
+    background: url(../../images/Features_Frame.png);
+    background-repeat: no-repeat;
+    width: 306px;
+    height: 214px;;
+}
+

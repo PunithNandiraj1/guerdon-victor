@@ -1,0 +1,173 @@
+.mechanics-container {
+    max-width: 100%;
+    padding: 3rem 15rem;
+    background: gray;
+    
+}
+
+.game-content {
+    max-width: 100%;
+}
+
+.game-content h2 {
+    text-align: center;
+    justify-content: center;
+    font-family: "Evil Empire";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+
+}
+.game-content p {
+    text-align: center;
+    justify-content: center;
+    margin: 2rem 18rem;
+}
+
+.game-content-flex {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.token-flex {
+    display: flex;
+}
+
+.token-content{
+    margin: 0 5rem;
+
+}
+
+.token-content h2{
+    font-family: 'Evil Empire';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.hr-line {
+
+}
+
+
+@media (min-width:810px) and (max-width:1400px) {
+    .mechanics-container {
+        max-width: 100%;
+        padding: 3rem 10rem;
+        background: gray;
+        
+    }
+    
+    .game-content {
+        max-width: 100%;
+        
+    }
+    
+    .game-content h2 {
+        text-align: center;
+        justify-content: center;
+        font-family: "Evil Empire";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 37px;
+        color: #000000;
+    
+    }
+    .game-content p {
+        text-align: center;
+        justify-content: center;
+        margin: 1rem 6rem;
+        font-size: 14px;
+    }
+    
+    .game-content-flex {
+        display: flex;
+       
+    }
+    
+    .token-flex {
+        display: flex;
+    }
+    
+    .token-content{
+        margin: 0 2rem;
+    
+    }
+    
+    .token-content h2{
+        font-family: 'Evil Empire';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 37px;
+        color: #000000;
+    }
+}
+
+@media (max-width:810px)  {
+    .mechanics-container {
+        padding: 3rem 6rem;
+        max-width: 100%;
+        background: gray;
+        
+    }
+    
+    .game-content {
+        max-width: 100%;
+    }
+    
+    .game-content h2 {
+        text-align: center;
+        justify-content: center;
+        font-family: "Evil Empire";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 37px;
+        color: #000000;
+    
+    }
+    .game-content p {
+        text-align: center;
+        justify-content: center;
+        margin: 1rem 3rem;
+        font-size: 14px;
+    }
+    
+    .game-content-flex {
+        display: block;
+        justify-content: center;
+       
+    }
+    
+    .token-flex {
+        display: block;
+        justify-content: center;
+    }
+
+    .token-flex img {
+        text-align: center;
+        justify-content: center;
+        margin: 1rem 15rem;
+    }
+    
+    .token-content{
+        margin: 0 2rem;
+    
+    }
+    
+    .token-content h2{
+        font-family: 'Evil Empire';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 37px;
+        color: #000000;
+    }
+}

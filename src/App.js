@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import Content from './components/Content/Content';
+import Device from './components/Device/Device';
+import Features from './components/Features/Features';
+import Footer from './components/Footer/Footer';
+import Hero from './components/Hero/Hero';
+import Mechanics from './components/Mechanics/Mechanics';
+import Navbar from './components/Navbar/Navbar';
+import Partners from './components/Partners/Partners';
+import Team from './components/Team/Team';
+import Tokenomics from './components/Tokenomics/Tokenomics';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    <Navbar/>
+    <Hero/>
+    {/* <Device/> */}
+    <Content/>
+    {/* <Features/> */}
+    <Mechanics/>  
+    {/* <Tokenomics/> */}
+
+    <Team/>
+    <Partners/>
+    <Footer/>
+   </>
   );
 }
 
