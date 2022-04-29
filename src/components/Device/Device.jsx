@@ -10,9 +10,9 @@ const Device = () => {
   return (
       <>
         <div className="device-container">
-        <video autoPlay loop muted id="video">
+        {/* <video autoPlay loop muted id="video">
           <source src={video} type="video/mp4"/>
-        </video>
+        </video> */}
         <div className="content-device">
             <img className="aaa" src={AAA} alt="" />
             <div className="vertical-divider"></div>

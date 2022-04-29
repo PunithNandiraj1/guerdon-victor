@@ -19,7 +19,7 @@ function App() {
    <>
     <Navbar/>
     <Hero/>
-     {/* <Device/>  */}
+     <Device/> 
     {/* <Content/>
     <Arenas/> 
     <Features/>  */}
