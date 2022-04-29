@@ -1,6 +1,6 @@
 import React from "react";
 import "./Mechanics.css";
-import vict from "../../images/icon_PC.svg";
+import vict from "../../images/mechanics-img1.png";
 
 const Mechanics = () => {
   return (
@@ -8,7 +8,6 @@ const Mechanics = () => {
       <div className="game-content">
         <h2>Game Mechanics </h2>
         <p>
-          
           Bring your Victors into battle and use their lethal weapons and
           superpowers to defeat your opponent and go for the kill. A duelist
           fantasy that allows you to immerse yourself in a unique KILL-TO-EARN
@@ -22,10 +21,10 @@ const Mechanics = () => {
           <div className="token-content">
             <h2>$VICT Token</h2>
             <div className="hr-line"></div>
-            <h5>
+            <p>
               It will serve as the governance token and will facilitate all the
               transactions and rewards that the game will be based upon.
-            </h5>
+            </p>
           </div>
         </div>
         <div className="token-flex">
@@ -33,10 +32,10 @@ const Mechanics = () => {
           <div className="token-content">
             <h2>$Blood Token</h2>
             <div className="hr-line"></div>
-            <h5>
+            <p>
               It will serve as the governance token and will facilitate all the
               transactions and rewards that the game will be based upon.
-            </h5>
+            </p>
           </div>
         </div>
       </div>
