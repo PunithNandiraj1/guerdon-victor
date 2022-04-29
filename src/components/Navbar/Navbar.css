@@ -50,7 +50,7 @@ li{
     font-size: 2rem;
 }
 
-@media screen and (max-width:1140px) {
+@media screen and (max-width:980px) {
     .hamburger {
         display: block;
     }
@@ -96,7 +96,7 @@ li{
 @media (min-width: 980px) and (max-width:1400px){
 
     li{
-        font-size: 12px;
+        font-size: 11px;
     }
     .navbar-container {
         width: 100%;

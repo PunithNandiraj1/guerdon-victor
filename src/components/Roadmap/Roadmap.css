@@ -38,7 +38,7 @@ color: #000000;
 }
 
 .q1-content {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 12px;
     line-height: 14px;
     color: #000000;
@@ -51,3 +51,66 @@ color: #000000;
     max-width: 100%;
     border: 1px solid #FFFFFF;
 }
+
+.mobile-roadmap {
+    display: none;
+}
+
+@media (max-width:1300px) {
+    .roadmap {
+        display: none;
+    }
+    .mobile-roadmap {
+        display: block;
+        background-color: #C37A00;
+        max-width: 100%;
+        padding: 2rem auto;
+    }
+    .mobile-roadmap-container {
+        padding: 1rem 0rem;
+    }
+    .mobile-roadmap-flex {
+        display: flex;
+        justify-content: center;
+    }
+    .mobile-roadmap-heading {
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .mobile-roadmap-heading h3 {
+    font-family: 'Evil Empire';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    padding: 2rem;
+}
+        .mobile-vertical-line {
+        margin: 0rem 2rem;
+        height: 1175px;
+        border: 1px solid #FFFFFF;
+        transform: rotate(180deg);
+    }
+    .mobile-q1-2022 , .mobile-q3-2022 , .mobile-q1-2023 , .mobile-q3-2023 {
+        text-align: end;
+    }
+
+    .mobile-content  {
+        width: 150px;
+        
+    }
+
+    .mobile-content p {
+        font-size: 12px;
+    }
+
+    .mobile-q3-2022 , .mobile-q3-2023 ,.mobile-q2-2022 , .mobile-q2-2023 {
+        margin: 9rem auto;
+    }
+
+
+
+}
+

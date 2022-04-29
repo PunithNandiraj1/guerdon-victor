@@ -26,7 +26,7 @@ function App() {
     <Mechanics/>  
     {/* <Tokenomics/> */}
     {/* <Characters/> */}
-    {/* <Roadmap/> */}
+    <Roadmap/>
     <Team/>
     <Partners/>
     <Footer/>
