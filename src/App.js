@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import Characters from './components/Characters/Characters';
 import Content from './components/Content/Content';
 import Device from './components/Device/Device';
 import Features from './components/Features/Features';
@@ -16,12 +17,12 @@ function App() {
    <>
     <Navbar/>
     <Hero/>
-    {/* <Device/> */}
+    <Device/>
     <Content/>
     {/* <Features/> */}
     <Mechanics/>  
-    {/* <Tokenomics/> */}
-
+    <Tokenomics/>
+    <Characters/>
     <Team/>
     <Partners/>
     <Footer/>

@@ -1,0 +1,134 @@
+.characters-container {
+    background-color: #DDA713;
+    padding: 2rem 5rem;
+}
+
+.heading {
+    text-align: center;
+    justify-content: center;
+
+}
+.characters-flex {
+    display: flex;
+}
+.character-item{
+    display: flex;
+    margin: 5rem ;
+}
+.durab {
+    width: 436px;
+    height: 546px;
+    margin-left: 10rem;
+
+}
+
+.mazila-content {
+    margin-top: 25rem;  
+}
+
+.mazila-content h3 {
+    font-family: 'Evil Empire';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+}
+
+.mazila-content p {
+    width: 201px;
+height: 48px;
+}
+
+.characters-circle {
+    margin: 5rem 0;
+}
+
+.two-characters {
+    display: flex;
+    margin: 0 7rem;
+    justify-content: space-evenly;
+}
+
+.two-characters img {
+    width: 104.75px;
+    height: 120px;
+   
+}
+
+
+
+.two-text-characters {
+    display: flex;
+    align-items: center;
+}
+
+.v7 , .v3 {
+    width: 104.75px;
+    height: 120px;
+    margin: 1rem 5rem;
+}
+
+.v5 {
+    margin: -2rem;
+}
+
+.logo-gold {
+    width: 47px;
+    height: 72px;
+    margin: 0 3rem;
+}
+
+
+.two-characters2 {
+    display: flex;
+    margin: 2rem 3rem 0rem 3rem;
+    justify-content: space-around;
+}
+
+.two-characters2 img {
+    width: 104.75px;
+    height: 120px;
+    margin: 0 3rem;
+}
+
+
+.one-character {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.image-content {
+    text-align: center;
+    justify-content: center;
+    margin: -2rem 0;
+
+}
+
+.image-content h3 {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Evil Empire';
+font-style: normal;
+font-weight: 400;
+font-size: 32px
+}
+
+.image-content p {
+    font-size: 10px;
+  padding: 0 5rem;
+}
+
+.character-root {
+    max-width: 100%;
+    margin-top: -12rem;
+    z-index: 2;
+    
+}
+
+.character-root img {
+    max-width: 100%;
+    z-index: 2;
+}
+
+
+

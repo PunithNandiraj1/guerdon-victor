@@ -1,16 +1,126 @@
 .feature-container {
+    padding: 10rem 48rem;
+    justify-content: center;
+    text-align: center;
+    background: url(../../images/BG_Frame.jpg);
+    max-width: 100%;
 
 }
 
-.feature-bg {
-    padding: 5rem 7rem;
-    background: url(../../images/BG_Frame.jpg);
+.feature-item-flex {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+   
 }
 
 .feature-item {
-    background: url(../../images/Features_Frame.png);
-    background-repeat: no-repeat;
-    width: 306px;
-    height: 214px;;
+    max-width: 100%;
+
 }
 
+.frame {
+    width: 306px;
+    height: 214px;
+}
+
+.feature-item-content {
+    width: 306px;
+    height: 214px;
+    text-align: center;
+    justify-content: center;
+    margin: -12rem 1rem;
+}
+
+.feature-item-content h1 {
+    font-family: 'Evil Empire';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 1rem;
+    color: #A36700;
+
+}
+
+.feature-item-content p {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+
+}
+
+.feature-item-section {
+    margin: 14rem auto;
+}
+
+
+@media (min-width:810px) and (max-width:1400px) {
+    .feature-container {
+        padding: 10rem 0rem;
+        background: url(../../images/BG_Frame.jpg);
+        max-width: 100%;
+    
+    }
+    
+    .feature-item-flex {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    .feature-item {
+        max-width: 100%;
+    
+    }
+    
+    .frame {
+        width: 250px;
+        height: 160px;
+    }
+    
+    .feature-item-content {
+        width: 306px;
+        height: 214px;
+        text-align: center;
+        justify-content: center;
+        margin: -12rem 5rem;
+    }
+    
+    .feature-item-content h1 {
+        font-family: 'Evil Empire';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        margin-bottom: 1rem;
+        color: #A36700;
+    
+    }
+    
+    .feature-item-content p {
+    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 2rem;
+    
+    }
+    
+    .feature-item-section {
+        margin: 14rem auto;
+    }
+    
+}
+
+@media (max-width:810px)  {
+    
+}
