@@ -1,4 +1,4 @@
-video {
+#video {
     width: 100%;
     object-fit: cover;
     position: fixed;
@@ -6,36 +6,52 @@ video {
     right: 0;
     top: 0;
     bottom: 0;
+    
     z-index: -1;
+    background-position: center;
+    
+    
 }
 
 .device-container {
-    margin: 2rem 25rem;
+    width: 100%;
+    height: 360px;
+    
 }
 
 .content-device {
     display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 2rem 8rem;
     
 
 }
 
 .aaa {
-    margin-right: 10rem;
+    margin-right: 3rem;
 }
 
 .social-content {
     display: flex;
     margin: 1.5rem 0;
+    align-items: center;
 }
 
-.content-text h5 {
+.vertical-divider {
+    
+    border: 1px solid #000000;
+    margin: 0 2rem;
+}
+.device-text h5 {
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
     color: #000000;
+    text-align: initial;
 }
 
-.content-text h2 {
+.device-text h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -43,22 +59,30 @@ video {
     line-height: 47px;
     color: #FFFFFF;
     margin: 1rem 0rem;
+    text-align: initial;
 }
 
 .horizontal-line {
-    width: 320px;
+    width: 422px;
     border-top: 1px solid black;
     margin: 0.25rem 0;
 }
 
-.content-text h3 {
+.device-text h3 {
     margin: 1rem 0;
+    text-align: initial;
+    font-weight: 700;
+font-size: 24px;
+line-height: 28px;
 }
 
 .social-content h4 {
-    margin: 0.4rem 0;
-    text-align: center;
-    justify-content: center;
+    font-weight: 900;
+    font-size: 20px;
+    
+    
+    color: #FFFFFF;
+   
 }
 
 .social-content img {

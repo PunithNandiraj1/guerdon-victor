@@ -10,10 +10,14 @@ const Device = () => {
   return (
       <>
         <div className="device-container">
-        <video autoPlay loop muted src={video}></video>
+        <video autoPlay loop muted id="video">
+          <source src={video} type="video/mp4"/>
+        </video>
         <div className="content-device">
             <img className="aaa" src={AAA} alt="" />
-            <div className="content-text">
+            <div className="vertical-divider"></div>
+            <div className="device-text">
+              
             <h5> A unique skill-based Fighting Game with </h5>
             <h2> 2 Different Earning Models </h2>
             <div className='horizontal-line' />

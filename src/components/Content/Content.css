@@ -1,23 +1,18 @@
 .content-container {
     display: block;
     max-width: 100%;
-    background: url(../../images/BG_Frame.jpg);
-   
-    
-    
+    background: url(../../images/BG_Frame.jpg);    
 }
 .content {
     display: flex;
-    padding: 15rem 10rem;
-    
-    max-width: 100%;
-    
-    
+    padding: 12rem 0rem;
+    justify-content: center;    
 }
 
 .content-text {
-    max-width: 40%;
-    margin-left: 10rem;
+    max-width: 25%;
+    margin: 0.5rem 2rem;
+    
 }
 
 .content-text p {
@@ -25,8 +20,8 @@
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
-    padding: 1em 5em 1em 0em;
     text-align: start;
+    margin: 1rem 0rem;
 }
 
 .content-image img {
@@ -35,73 +30,26 @@
     
 }
 
-@media (min-width:980px) and (max-width:1480px) {
-    .content-container {
-      
-        max-width: 100%;
-        
-       
-        
-        
-    }
-    .content {
-        display: block;
-        max-width: 100%;
-        padding: 10rem 5rem;
-    }
-
-    .content-text{
-        width: 100%;
-        margin-left: 5rem;
-    }
-
-    .content-text p {
-        padding: 0.5em 3em 0.5em 0em;
-        font-size: 16px;
-    }
-
-    .content-image img {
-        width: 405px;
-        height: 240px;
-
-    }
+ @media (min-width:980px) and (max-width:1240px) {
     
-}
-
-@media (min-width:800px) and (max-width:979px) {
-    .content-container {
-      
-        max-width: 100%;
-        
-       
-        
-        
-    }
-    .content {
-        max-width: 100%;
-        padding: 8rem 2rem;
-    }
-
-    .content-text{
-        margin-left: 5rem;
-    }
+    
 
     .content-text p {
-
-        padding: 0.25em 0.75em 0.25em 0em;
-        font-size: 12px;
+        
+        font-size: 18px;
     }
 
     .content-image img {
-        width: 355px;
-        height: 200px;
+        max-width: 505px;
+        max-height: 320px;
 
     }
 
     
-}
+    
+} 
 
-@media(max-width:800px) {
+@media(max-width:990px) {
     .content{
         display: flex;
         flex-direction: column-reverse;
@@ -135,4 +83,4 @@
     }
 
     
-}
+} 

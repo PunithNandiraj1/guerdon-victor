@@ -1,0 +1,53 @@
+.roadmap {
+    background-color: #C37A00;
+    padding: 2rem ;
+}
+
+.roadmap-container {
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    
+}
+
+.roadmap-heading h3 {
+font-family: 'Evil Empire';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+
+
+
+color: #000000;
+}
+
+.roadmap-2022 {
+    display: flex;
+}
+
+.q1-2022 , .q2-2022 , .q3-2022 , .q4-2022 {
+    display: flex;
+    margin: 2rem;
+}
+
+.q1-2022 img, .q2-2022 img , .q3-2022 img, .q4-2022 img{
+    width: 56px;
+    height: 82px;
+}
+
+.q1-content {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    margin-left: 1rem;
+    width: 150px;
+}
+
+.horizontal-roadmap-line {
+    
+    max-width: 100%;
+    border: 1px solid #FFFFFF;
+}

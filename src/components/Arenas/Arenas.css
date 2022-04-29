@@ -1,0 +1,9 @@
+.arenas-container {
+    background-color: #BD7000 ;
+}
+
+.arenas {
+    display: flex;
+    width: 488.99px;
+    height: 230px;
+}
