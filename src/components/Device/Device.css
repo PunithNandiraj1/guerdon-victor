@@ -98,6 +98,9 @@ line-height: 28px;
     }
     .content-device {
         display: block;
+        text-align: center;
+        justify-content: center;
+        padding: 3rem 0rem;
     }
     .aaa {
         margin: 2rem 0rem;
