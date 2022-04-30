@@ -1,7 +1,15 @@
 import React from "react";
 import "./Features.css";
 import frame from "../../images/Features_Frame.png";
-import marketplace from "../../images/icon_VR.svg";
+import gamemode from "../../images/Features/Game-Modes.png";
+import marketplace from "../../images/Features/Marketplace.png";
+import Staking from "../../images/Features/Staking.png";
+import victor from "../../images/Features/Victor-Wheel.png";
+import energy from "../../images/Features/Energy-Potion.png";
+import graphics from "../../images/Features/High-Graphics.png";
+
+
+
 
 const Features = () => {
   return (
@@ -12,13 +20,11 @@ const Features = () => {
           <img  className = "frame" src={frame} alt="" />
         
         <div className="feature-item-content">
-        <h1>MarketPlace</h1>
+        <h1>Game modes</h1>
           <p>
-            Built for an all-out war. Spend your $VICT token to buy, sell and
-            rent out Guerdon Victor NFTs. Spend your $VICT coins on Energy
-            Potions, Victors &amp; Weapon Skins, and other items.
+          Kill one or kill them all. A bloodbath awaits you. Choose between PvP, PvE, Team battles, and All-out tournament modes.
           </p>
-          <img src={marketplace} alt="" />
+          <img src={gamemode} alt="" />
           </div>
       </div>
       <div className="feature-item">
@@ -40,13 +46,11 @@ const Features = () => {
           <img className = "frame" src={frame} alt="" />
         
         <div className="feature-item-content">
-        <h1>MarketPlace</h1>
+        <h1>Staking</h1>
           <p>
-            Built for an all-out war. Spend your $VICT token to buy, sell and
-            rent out Guerdon Victor NFTs. Spend your $VICT coins on Energy
-            Potions, Victors &amp; Weapon Skins, and other items.
+          The most heated and awaited part about owning $VICT Tokens. Stake your $VICT tokens to earn more rewards!.
           </p>
-          <img src={marketplace} alt="" />
+          <img src={Staking} alt="" />
           </div>
       </div>
       </div>
@@ -59,13 +63,11 @@ const Features = () => {
           <img className = "frame" src={frame} alt="" />
         
         <div className="feature-item-content">
-        <h1>MarketPlace</h1>
+        <h1>VICTOR WHEEL</h1>
           <p>
-            Built for an all-out war. Spend your $VICT token to buy, sell and
-            rent out Guerdon Victor NFTs. Spend your $VICT coins on Energy
-            Potions, Victors &amp; Weapon Skins, and other items.
+          Both tokens can be used to spin the victor wheel, it will give players a chance of winning various prizes such as weapons, skins, $VICT tokens, extra fights, etc.
           </p>
-          <img src={marketplace} alt="" />
+          <img src={victor} alt="" />
           </div>
       </div>
       <div className="feature-item">
@@ -73,13 +75,11 @@ const Features = () => {
           <img className = "frame" src={frame} alt="" />
         
         <div className="feature-item-content">
-        <h1>MarketPlace</h1>
+        <h1>ENERGY POTION</h1>
           <p>
-            Built for an all-out war. Spend your $VICT token to buy, sell and
-            rent out Guerdon Victor NFTs. Spend your $VICT coins on Energy
-            Potions, Victors &amp; Weapon Skins, and other items.
+          The 'Vitamin E' elixir will be an in-game utility that players may take to boost their health by a certain percentage for a single fight.
           </p>
-          <img src={marketplace} alt="" />
+          <img src={energy} alt="" />
           </div>
       </div>
       <div className="feature-item">
@@ -87,13 +87,11 @@ const Features = () => {
           <img className = "frame" src={frame} alt="" />
         
         <div className="feature-item-content">
-        <h1>MarketPlace</h1>
+        <h1>HIGH-END GRAPHICS</h1>
           <p>
-            Built for an all-out war. Spend your $VICT token to buy, sell and
-            rent out Guerdon Victor NFTs. Spend your $VICT coins on Energy
-            Potions, Victors &amp; Weapon Skins, and other items.
+          The characters and game graphics quality is far better than any other blockchain game.
           </p>
-          <img src={marketplace} alt="" />
+          <img src={graphics} alt="" />
           </div>
       </div>
       </div>

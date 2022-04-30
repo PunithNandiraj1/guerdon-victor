@@ -20,9 +20,9 @@ function App() {
     <Navbar/>
     <Hero/>
      <Device/> 
-    {/* <Content/>
-    <Arenas/> 
-    <Features/>  */}
+    <Content/>
+    {/* <Arenas/>  */}
+    <Features/> 
     <Mechanics/>  
     {/* <Tokenomics/> */}
     {/* <Characters/> */}
