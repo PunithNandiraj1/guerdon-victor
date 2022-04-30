@@ -1,6 +1,7 @@
 import React from "react";
 import "./Mechanics.css";
 import vict from "../../images/mechanics-img1.png";
+import blood from "../../images/Blood-Token.png";
 
 const Mechanics = () => {
   return (
@@ -28,7 +29,7 @@ const Mechanics = () => {
           </div>
         </div>
         <div className="token-flex">
-          <img src={vict} alt="" />
+          <img src={blood} alt="" />
           <div className="token-content">
             <h2>$Blood Token</h2>
             <div className="hr-line"></div>
