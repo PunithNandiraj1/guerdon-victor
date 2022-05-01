@@ -111,6 +111,8 @@ line-height: 28px;
 
     .device-text h5 {
         text-align: center;
+        margin: 0 auto;
+        justify-content: center;
     }
 
     .device-text h2 {
@@ -118,13 +120,15 @@ line-height: 28px;
     }
 
     .device-text h3 {
+       
         text-align: center;
     }
 
     .horizontal-line {
+        display: none;
         width: auto;
         border-top: 1px solid black;
-    margin: 0.25rem 0;
+        margin: 0.25rem 0;
     }
 
     .social-content {

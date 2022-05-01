@@ -14,6 +14,7 @@ import rock from "../../images/Rock.png";
 import mazila from "../../images/Characters/Mazila.png";
 import Slider from "react-slick";
 import rockMobile from "../../images/Rock-mobile.png";
+import HeadingMobile from "../../images/heading-mobile.png";
 
 const Characters = () => {
 
@@ -70,7 +71,7 @@ const Characters = () => {
 
         <div className="mobile-characters-container">
             <div className="mobile-heading">
-                {/* <img src={Heading} alt="" /> */}
+                <img src={HeadingMobile} alt="" />
             </div>
             <div className="mobile-image-content">
             <img className="logo-gold" src={LogoGold} alt="" />
@@ -111,10 +112,11 @@ const Characters = () => {
                     <img src={mazila} alt="" />
                 </div>
             </div>
+           
+           
+            </div>
             <div className="rock-mobile">
                 <img src={rockMobile} alt="" />
-            </div>
-           
             </div>
 
         </div>

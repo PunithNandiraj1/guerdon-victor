@@ -171,14 +171,15 @@ ul{
        max-width: 100%;
 
     }
-    .heading {
+    .mobile-heading {
         text-align: center;
         justify-content: center;
+        margin-bottom: 1rem;
     
     }
     
-    .heading img {
-        max-width: 100%;
+    .mobile-heading img {
+       width: 100%;
     }
     .mobile-image-content{
         text-align: center;
@@ -262,15 +263,16 @@ ul{
     .character-image img {
         width: 257px;
         height: 330px;
-        z-index: 2;
+        z-index: 4;
     }
     .rock-mobile {
-        max-width: 100%;
-        margin-top: -7rem;
+        width: 100%;
+        margin-top: -8rem;
+        z-index: 2;
     }
     .rock-mobile img {
-        max-width: 100%;
-        
+        width: 100%;
+        position: relative;
         z-index: 2;
     }
 
