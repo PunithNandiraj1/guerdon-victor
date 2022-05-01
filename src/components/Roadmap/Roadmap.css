@@ -1,5 +1,5 @@
 .roadmap {
-    background-color: #C37A00;
+    background-image: url(../../images/gold.png);
     padding: 2rem ;
 }
 
@@ -62,7 +62,7 @@ color: #000000;
     }
     .mobile-roadmap {
         display: block;
-        background-color: #C37A00;
+        background-image: url(../../images/gold_mobile.png);
         max-width: 100%;
         padding: 2rem auto;
     }

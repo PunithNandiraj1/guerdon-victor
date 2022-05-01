@@ -83,9 +83,9 @@
     .mechanics-container {
         padding: 2rem 0rem;
         max-width: 100%;
-        object-fit: contain;
-        background-image: url(../../images/mechanics-background-mobile.png);
-        background-position: center center;
+       
+        background-image: url(../../images/mobile-characters-background.png);
+       
         
         
     }
