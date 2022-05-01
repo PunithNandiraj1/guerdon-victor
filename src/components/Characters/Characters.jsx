@@ -14,6 +14,8 @@ import rock from "../../images/Rock.png";
 
 const Characters = () => {
   return (
+      <>
+     
     <div className="characters-container">
         <div className="heading">
             <img src={Heading} alt="" />
@@ -23,6 +25,7 @@ const Characters = () => {
                 <img className = "durab" src={Durab} alt="" />
                 <div className="mazila-content">
                     <h3> Mazila </h3>
+                    
                     <p> A beast of unknown origin that lurks in mysterious shadowless valleys.</p>
                 </div>
             </div>
@@ -51,10 +54,12 @@ const Characters = () => {
                 </div>
                 </div>
             </div>
-            <div className="character-root">
+            
+        </div>
+        <div className="character-root">
                 <img src={rock} alt="" />
             </div>
-        </div>
+        </>
     
   )
 }

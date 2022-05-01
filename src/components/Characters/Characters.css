@@ -1,6 +1,6 @@
 .characters-container {
-    background-color: #DDA713;
-    padding: 2rem 5rem;
+    background-image: url(../../images/character-background.png);
+    padding: 4.4rem 3.2rem 0rem;
 }
 
 .heading {
@@ -10,32 +10,43 @@
 }
 .characters-flex {
     display: flex;
+    justify-content: space-evenly;
 }
 .character-item{
     display: flex;
-    margin: 5rem ;
+    margin: 4.3rem 0rem ;
 }
+
 .durab {
     width: 436px;
     height: 546px;
-    margin-left: 10rem;
+    z-index: 1;
 
 }
 
 .mazila-content {
-    margin-top: 25rem;  
+    margin: 23.3rem 0rem 0rem 3rem;  
 }
 
 .mazila-content h3 {
     font-family: 'Evil Empire';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: #FFFFFF;
 }
 
 .mazila-content p {
     width: 201px;
-height: 48px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 4px;
 }
 
 .characters-circle {

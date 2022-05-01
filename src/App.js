@@ -24,8 +24,8 @@ function App() {
     <Arenas/> 
     <Features/> 
     <Mechanics/>  
-    {/* <Tokenomics/> */}
-    {/* <Characters/> */}
+    <Tokenomics/> 
+    <Characters/>
     <Roadmap/>
     <Team/>
     <Partners/>
