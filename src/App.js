@@ -21,7 +21,7 @@ function App() {
     <Hero/>
      <Device/> 
     <Content/>
-    {/* <Arenas/>  */}
+    <Arenas/> 
     <Features/> 
     <Mechanics/>  
     {/* <Tokenomics/> */}
