@@ -36,14 +36,14 @@ const Roadmap = () => {
           <div className="q3-2022">
             <img src={q3} alt="" />
             <div className="q1-content">
-              <p>BETA version release:</p>
+                <p style={{color: "#000000", fontWeight: 900}}>BETA version release:</p>
                <p> Release the beta version of Q4- Guerdon Victor, version 1.0 2022 for both smartphones and PC.</p>
             </div>
           </div>
           <div className="q4-2022">
             <img src={q4} alt="" />
             <div className="q1-content">
-            <p>Version 1.0 Final release: </p>
+            <p  style={{color: "#000000", fontWeight: 900}}>Version 1.0 Final release: </p>
             <p>The beta version will be terminated and Version 1.0 will be released.</p>
             </div>
           </div>
@@ -61,14 +61,14 @@ const Roadmap = () => {
           <div className="q1-2022">
             <img src={q1} alt="" />
             <div className="q1-content">
-            <p>Version 1.0 - VR</p>
+            <p  style={{color: "#000000", fontWeight: 900}}>Version 1.0 - VR</p>
             <p>Release of Guerdon Victor Virtual Reality (VR) version</p>
             </div>
           </div>
           <div className="q2-2022">
             <img src={q2} alt="" />
             <div className="q1-content">
-             <p>New Gameplay Mode</p>
+             <p  style={{color: "#000000", fontWeight: 900}}>New Gameplay Mode</p>
 <p>Team Fighting mode will go live, make a team with your friend or unknown player and fight against the opponent team in Team v/s Team mode.</p>
             </div>
           </div>
@@ -84,7 +84,7 @@ const Roadmap = () => {
           <div className="q4-2022">
             <img src={q4} alt="" />
             <div className="q1-content">
-              <p> Version 2.0 Release: </p>
+              <p  style={{color: "#000000", fontWeight: 900}}> Version 2.0 Release: </p>
 <p> Release of Guerdon Victor version 2.0 with new upgrades and features. </p>
               
             </div>
