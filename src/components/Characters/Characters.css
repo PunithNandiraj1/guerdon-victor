@@ -1,3 +1,5 @@
+
+
 .characters-container {
     background-image: url(../../images/character-background.png);
    
@@ -166,8 +168,7 @@ ul{
 
     .mobile-characters-container {
         display: block;
-       
-       background-image: url(../../images/mobile-characters-background.png);
+        background-image: url(../../images/mobile-characters-background.png);
        max-width: 100%;
 
     }
@@ -213,15 +214,13 @@ ul{
         margin-top: 0.5rem;
     }
 
-    .slider {
-        margin: 2rem 0rem;
-      
+    .mobile-swipe {
+        margin-top: 1rem;
     }
 
-    .slider img {
-        width: 100%;
-        height: 100%;
-        padding: 10%;
+    .mobile-swipe img {
+        width: auto;
+        
     }
 
     .mobile-character-content {
@@ -230,7 +229,7 @@ ul{
 
     .character-name {
         display: flex;
-        margin: 2rem 8rem;
+        margin: 2rem auto auto 5rem;
     }
 
     .character-name h2 {

@@ -1,22 +1,29 @@
+import Cave from "../../images/Arena/Cave.png";
+import Dungeon from "../../images/Arena/Dungeon.png";
+import Hell from "../../images/Arena/Hell.png";
+import Snow from "../../images/Arena/Snow.png";
+import Temple from "../../images/Arena/Temple.png";
+
+
 const data = [
     {
-        img: '/../images/Arena/Cave.png',
+        img: Cave,
         title: 'Dark Cave'
     },
     {
-        img: '../../images/Arena/Dungeon.png',
+        img: Dungeon,
         title: 'Ancient Dungeon'
     },
     {
-        img: '../../images/Arena/Hell.png',
+        img: Hell,
         title: 'Burning Hell'
     },
     {
-        img: '../../images/Arena/Snow.png',
+        img: Snow,
         title: 'Freezing Snowland'
     },
     {
-        img: '../../images/Arena/Temple.png',
+        img: Temple,
         title: 'Japanese Temple'
     },
 
