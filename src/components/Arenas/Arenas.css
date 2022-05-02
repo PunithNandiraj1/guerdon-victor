@@ -1,5 +1,4 @@
-@import "slick-carousel/slick/slick.css";
-@import "slick-carousel/slick/slick-theme.css";
+
 
 
 .arenas-container {
@@ -91,11 +90,20 @@
     .slick-list > div{
         margin: 0 -5rem;
     }
+    .slick-slide img {
+        width: 400px;
+        height: 200px;
+    }
+
+    .slider-container {
+        margin-top: 1rem;
+        padding: 0 1rem 0 3rem;
+    }
 }
 
 
 
-/* @media (max-width:600px) {
+@media (max-width:600px) {
     .slick-slide img {
         width: 400px;
         height: 200px;
@@ -104,6 +112,19 @@
     .arena-name {
         
         margin-left: 6rem;
+    }
+
+    .slick-slide > div{
+        margin: 0 10px;
+    
+    }
+    
+    .slick-list > div{
+        margin: 0 -10px;
+    }
+    .slider-container {
+        margin-top: 1rem;
+        padding: 0 1rem 0 3rem;
     }
 }
 
@@ -117,5 +138,18 @@
         
         margin-left: 4rem;
     }
+
+    .slick-slide > div{
+        margin: 0 10px;
     
-} */
+    }
+    
+    .slick-list > div{
+        margin: 0 -10px;
+    }
+    .slider-container {
+        margin-top: 0.5rem;
+        padding: 0 1rem 0 3rem;
+    }
+    
+}

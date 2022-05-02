@@ -7,6 +7,8 @@ import Snow from "../../images/Arena/Snow.png";
 import Temple from "../../images/Arena/Temple.png";
 import Slider from "react-slick";
 import data from './data.js';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 
@@ -27,11 +29,20 @@ const Arenas = () => {
     beforeChange: (current, next) => setImageIndex(next),
     responsive: [
       {
+        breakpoint: 1704,
+        settings: {
+          slidesToShow: 2,
+          infinite: true,
+          centerPadding: "10px",
+          
+        }
+      },
+      {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
           infinite: true,
-          centerPadding: "0",
+          centerPadding: "10px",
           
         }
       },
@@ -50,8 +61,8 @@ const Arenas = () => {
           slidesToShow: 1,
           className: "center",
           centerMode: true,
-          centerPadding: "30px",
-          width: "325px"
+          
+          
         }
       }
     ]
