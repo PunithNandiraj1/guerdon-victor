@@ -229,7 +229,7 @@ ul{
 
     .character-name {
         display: flex;
-        margin: 2rem auto auto 5rem;
+        margin: 2rem auto auto 4rem;
     }
 
     .character-name h2 {
@@ -257,6 +257,7 @@ ul{
         line-height: 15px;
         color: #FFFFFF;
         margin-top: 0rem;
+        padding: 0 2rem 0 0;
 }
 
     .character-image img {

@@ -90,8 +90,7 @@ const Characters = () => {
                     <li><img src={v6} alt="" /></li>
                     <li><img src={v7} alt="" /></li>
                 </ul>
-
-                </div>
+              </div>
             </div>
             
         </div>

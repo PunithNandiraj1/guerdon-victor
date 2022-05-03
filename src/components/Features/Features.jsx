@@ -24,7 +24,7 @@ const Features = () => {
           <p>
           Kill one or kill them all. A bloodbath awaits you. Choose between PvP, PvE, Team battles, and All-out tournament modes.
           </p>
-          <img src={gamemode} alt="" />
+          <img src={gamemode} style={{marginTop: "-1rem"}} alt="" />
           </div>
       </div>
       <div className="feature-item">
@@ -50,7 +50,7 @@ const Features = () => {
           <p>
           The most heated and awaited part about owning $VICT Tokens. Stake your $VICT tokens to earn more rewards!.
           </p>
-          <img src={Staking} alt="" />
+          <img src={Staking} style={{marginTop: "-1rem"}} alt="" />
           </div>
       </div>
       </div>
@@ -67,7 +67,7 @@ const Features = () => {
           <p>
           Both tokens can be used to spin the victor wheel, it will give players a chance of winning various prizes such as weapons, skins, $VICT tokens, extra fights, etc.
           </p>
-          <img src={victor} alt="" />
+          <img src={victor} style={{marginTop: "-0.5rem"}} alt="" />
           </div>
       </div>
       <div className="feature-item">
@@ -79,7 +79,7 @@ const Features = () => {
           <p>
           The 'Vitamin E' elixir will be an in-game utility that players may take to boost their health by a certain percentage for a single fight.
           </p>
-          <img src={energy} alt="" />
+          <img src={energy} style={{marginTop: "-1rem"}} alt="" />
           </div>
       </div>
       <div className="feature-item">
@@ -91,7 +91,7 @@ const Features = () => {
           <p>
           The characters and game graphics quality is far better than any other blockchain game.
           </p>
-          <img src={graphics} alt="" />
+          <img src={graphics} style={{marginTop: "-1rem"}} alt="" />
           </div>
       </div>
       </div>
