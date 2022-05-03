@@ -18,7 +18,7 @@ const Navbar = () => {
         <ul className={click ? 'nav active' : 'nav'}>
           
           <li className="nav-link" > <a href='#about'> <span className="vertical-line"></span> About GV </a></li>
-          <li className="nav-link"> <a href='#characters'> <a href='#characters-mobile'> <span className="vertical-line"></span>Character NFTs </a> </a></li>
+          <li className="nav-link"> <a href='#characters'> <span className="vertical-line"></span>Character NFTs </a> </li>
         
           <li className="nav-link"> <a href='#arena'> <span className="vertical-line"></span>Arena NFTs </a></li>
         

@@ -38,13 +38,19 @@
     font-size: 16px;
     max-width: 100%;
     cursor: pointer;
+    
   
     
+}
+
+.nav-link a:hover {
+    color: #FFD700;
 }
 
 .nav-link a {
     text-decoration: none;
     color: inherit;
+    transition: ease-in-out 1s;
 }
 
 .hamburger {
