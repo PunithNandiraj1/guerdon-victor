@@ -7,7 +7,7 @@ const Content = () => {
       <>
      
 
-    <div className="content-container">
+    <div className="content-container" id='about'>
         <div className="content">
       <div className="content-text">
         <p>

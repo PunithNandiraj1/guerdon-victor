@@ -8,7 +8,7 @@ const Roadmap = () => {
   return (
     <>
   
-    <div className="roadmap">
+    <div className="roadmap" id='roadmap'>
       <div className="roadmap-container">
         <div className="roadmap-heading">
           <h3> Roadmap </h3>
@@ -92,7 +92,7 @@ const Roadmap = () => {
         </div>
       </div>
     </div>
-    <div className="mobile-roadmap">
+    <div className="mobile-roadmap" id='roadmap-mobile'>
       <div className="mobile-roadmap-container">
         <div className="mobile-roadmap-heading">
         <h3> Roadmap </h3>

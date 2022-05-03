@@ -13,7 +13,7 @@ import graphics from "../../images/Features/High-Graphics.png";
 
 const Features = () => {
   return (
-    <div className="feature-container">
+    <div className="feature-container" id='features'>
       <div className="feature-item-flex">
       <div className="feature-item">
         

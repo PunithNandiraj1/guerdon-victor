@@ -19,13 +19,13 @@ function App() {
    <>
     <Navbar/>
     <Hero/>
-     <Device/> 
+    <Device/> 
     <Content/>
+    <Characters/>
     <Arenas/> 
     <Features/> 
     <Mechanics/>  
     <Tokenomics/> 
-    <Characters/>
     <Roadmap/>
     <Team/>
     <Partners/>

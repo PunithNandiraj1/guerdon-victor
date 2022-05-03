@@ -5,7 +5,7 @@ import blood from "../../images/Blood-Token.png";
 
 const Mechanics = () => {
   return (
-    <div className="mechanics-container">
+    <div className="mechanics-container" id='mechanics'>
       <div className="game-content">
         <h2>Game Mechanics </h2>
         <p>

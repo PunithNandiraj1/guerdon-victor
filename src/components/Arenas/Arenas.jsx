@@ -69,7 +69,7 @@ const Arenas = () => {
     
   };
   return (
-    <div className="arenas-container">
+    <div className="arenas-container" id='arena'>
       <div className="arenas-content">
         <h3> Arena NFTs </h3>
       </div>

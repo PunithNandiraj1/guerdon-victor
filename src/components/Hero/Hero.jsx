@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
     
-    <div className="hero-container">
+    <div className="hero-container" >
         
         <img src={kill} alt="" className="text-hero" />
         

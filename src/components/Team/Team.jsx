@@ -12,7 +12,7 @@ import william from "../../images/team_avatars/william.svg";
 
 const Team = () => {
   return (
-    <div className="team-container">
+    <div className="team-container" id='teams'>
         <h1> TEAM &amp; PARTNERS</h1>
         <div className="team-content">
             <div className="team-item">

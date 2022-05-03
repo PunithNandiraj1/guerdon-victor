@@ -5,7 +5,10 @@
 }
 
 .tokenomics-container h2 {
+    padding-top: 3rem;
     text-align: center;
     color: white;
     font-family: "Evil Empire";
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }

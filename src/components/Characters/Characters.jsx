@@ -62,7 +62,7 @@ const Characters = () => {
   return (
       <>
      
-    <div className="characters-container">
+    <div className="characters-container" id='characters'>
         <div className="heading">
             <img src={Heading} alt="" />
         </div>
@@ -99,7 +99,7 @@ const Characters = () => {
                 <img src={rock} alt="" />
             </div>
 
-        <div className="mobile-characters-container">
+        <div className="mobile-characters-container"  id='characters-mobile'>
             <div className="mobile-heading">
                 <img src={HeadingMobile} alt="" />
             </div>
