@@ -65,11 +65,25 @@
     transform: scale(0.2);
     transition: transform 300ms;
     opacity: 0.5;
+    cursor: pointer;
   }
+
+.arena-img:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
   
   .activeSlide {
     transform: scale(1.1);
     opacity: 1;
+  }
+
+  .activeSlide img:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
   }
 
 .slider-container {

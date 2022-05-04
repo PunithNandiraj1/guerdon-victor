@@ -78,7 +78,7 @@ const Arenas = () => {
           {data.map((x,i) => (
             
             <div key={i} className='imageIndex ? "change activeSlide" : "change"'>
-                        <img src={x.img}/>
+                        <img  className = "arena-img" src={x.img}/>
                          <h2 className='arena-name'>{x.title} </h2>
                          
                        </div>

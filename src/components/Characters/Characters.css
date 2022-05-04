@@ -101,7 +101,18 @@ ul{
 
 .characters-circle li{
     position: absolute;
+    cursor: pointer;
+    
 }
+
+.characters-circle li img:hover{
+    transition:all 0.3s ease;
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+
 
 .characters-circle li:nth-child(1) {
     transform: translate(13rem , 0rem);
